@@ -10,6 +10,7 @@ local plugins = {
     'tabby',
     'dap',
     'delete_buffers',
+    'fugitive',
 }
 
 local function req(plugin)

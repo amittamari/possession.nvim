@@ -59,6 +59,7 @@ local function defaults()
             tabby = true,
             dap = true,
             delete_buffers = false,
+            fugitive = true,
         },
         telescope = {
             list = {
