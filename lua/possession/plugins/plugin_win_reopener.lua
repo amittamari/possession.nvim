@@ -78,7 +78,7 @@ local function _after_load(opts, name, plugin_data, has_plugin, open_plugin)
     end
 end
 
-function M.create_plugin_reopener(ft, open_plugin, has_plugin_func)
+function M.create_plugin_win_reopener(ft, open_plugin, has_plugin_func)
     return {
         before_save = function(opts, name)
             return _before_save(opts, name, ft, has_plugin_func())

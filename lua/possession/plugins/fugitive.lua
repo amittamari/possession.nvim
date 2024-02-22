@@ -1,4 +1,4 @@
-local create_plugin_reopener = require('possession.plugins.plugin_reopener').create_plugin_reopener
+local create_plugin_reopener = require('possession.plugins.plugin_win_reopener').create_plugin_reopener
 
 local has_fugitive = function()
     -- TODO has solution?
